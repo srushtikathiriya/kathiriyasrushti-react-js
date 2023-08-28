@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>html table-3</title>
+        <style>
+            table, th, td{
+                border: 2px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                width:500px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+           <caption>this is table tag</caption>
+           <thead>
+               <tr>
+                   <th>no.</th>
+                   <th>full name</th>
+                   <th>position</th>
+                   <th>salary</th>
+                   <th>type</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>1</td>
+                   <td>bill gates</td>
+                   <td>founder microsoft</td>
+                   <td>$1000</td>
+                   <td rowspan="4">company founder</td>
+               </tr>
+               <tr>
+                   <td>2</td>
+                   <td>steave jobs</td>
+                   <td>founder-apple</td>
+                   <td>$1200</td>
+               </tr>
+               <tr>
+                   <td>3</td>
+                   <td>larry page</td>
+                   <td>founder-google</td>
+                   <td>$1100</td>
+               </tr>
+               <tr>
+                   <td>4</td>
+                   <td>mark zukerburg</td>
+                   <td>founder facebook</td>
+                   <td>$1300</td>
+               </tr>
+           </tbody>
+           <tfoot>
+               <tr>
+                   <td colspan="3">total expense:</td>
+                   <td>$4600</td>
+               </tr>
+           </tfoot>
+        </table>
+   </body>
+</html>
