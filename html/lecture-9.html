@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keyword" content="keyword">
+        <meta name="discription" content="discription">
+        <meta name="author" content="author">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>lecture-9</title>
+    
+    </head>
+    <body>
+        <!-- area tag-->
+        <area shape="rect" coords="0,0,15,500" href=""alt="">
+
+        <!-- canvas tag -->
+        <canvas width="300"height="300"style="background-color:red;">
+            an alternative text describing what your canvas display.
+        </canvas>
+
+        <!-- output tag -->
+         <form oninput="result.value=parseInt(a.value)+parseInt(b.value)"> 
+            <input type="range" id="b" name="b" value="50"/>+
+            <input type="number" id="a" name="a" value="10"/>=
+            <output name="result" for="a b">60</output>
+        </form> 
+
+        <script>
+            const canvas=document.querySelector('canvas');
+            const ctx=canvas.getContext('2d');
+            ctx.fillStyle='yellow';
+            ctx.fillRect(50,50,300,300);
+        </script>
+    </body>
+</html>
