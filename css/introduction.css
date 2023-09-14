@@ -1,0 +1,59 @@
+/* css apply external method */
+pre{
+    color: red;
+    border: 2px solid black;
+    background-color: skyblue;
+}
+h1{
+    text-align: center;
+    text-decoration:line-through;
+}
+
+/* cascade */
+.element-1{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.element-1{
+    background-color:blueviolet;
+    height: 200px;
+    width: 400px;
+}
+.element-1{
+    height: 50px;
+}
+
+/* inheritance */
+.heading-1{
+    color: red;
+    text-decoration: underline;
+}
+.element-2 .heading-1{
+    color: green;
+}
+.text .element-2 .heading-1{
+    color: pink;
+}
+.text .heading-1{
+    color: brown;
+}
+.element-3 .heading-1{
+    color: blue;
+}
+
+/* !important rule */
+.heading-2{
+    color: tomato;
+    background-color: yellow;
+}
+.heading-2{
+    color: blue;
+    background-color: gray;
+}
+.para-11{
+    color: pink!important;
+}
+.para-11{
+    color: red!important;
+}

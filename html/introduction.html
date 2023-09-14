@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> css introduction</title>
+    <link rel="stylesheet" href="../css/introduction.css">
+
+    <!-- css apply internal method -->
+    <style>
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            color: red;
+        }
+
+        .heading-2 {
+            color: blue;
+            background-color: green;
+        }
+
+        .element-1 {
+            background-color: green;
+        }
+
+        .para-11 {
+            color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- css syntex -->
+    <img src="css-syntex.png" alt="image" height="100px">
+
+    <!-- inline method -->
+    <p style="background-color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis
+        dolor sunt, dolore fuga, expedita qui nihil neque perspiciatis eos unde dolores. Laudantium accusantium atque
+        optio alias maiores delectus odio.</p>
+
+    <!-- internal method -->
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis velit consectetur dolorum laboriosam, facere
+        laborum? Molestias in corporis molestiae beatae repellat. Error molestiae hic labore a ipsam possimus harum
+        culpa.</h1>
+
+    <!-- external method -->
+    <pre>
+            this is pre tag
+            this is pre tag
+            this is pre tag
+            this is pre tag
+        </pre>
+
+    <!-- cascade -->
+    <div class="element-1"></div>
+
+    <!-- inheritance -->
+    <div class="text">
+        <div class="element-2">
+            <h2 class="heading-1">this is heading tag-1</h2>
+        </div>
+        <div class="element-3">
+            <h2 class="heading-1">this is heading tag</h2>
+        </div>
+    </div>
+
+    <!-- !important -->
+    <h2 class="heading-2">this is heading tag</h2>
+    <p class="para-11" style="color: green;">this is p tag</p>
+</body>
+
+</html>
