@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
+
+.font-family{
+    font-family: 'Lato', sans-serif;
+}
+.font-size{
+    font-size: 20px;
+}
+.font-style p:nth-child(1){
+    font-style: oblique;
+}
+.font-style p:nth-child(2){
+    font-style:italic;
+}
+.font-vatiant p:nth-child(1){
+    font-variant: small-caps;
+}
+.font-weight p:nth-child(1){
+    font-weight: lighter;
+}
+.line-height{
+    font-size: 20px;
+    line-height: 18px;
+}
+
+
+.text-color{
+    color: blueviolet;
+}
+
+.text-align p:nth-child(1){
+    text-align: left;
+}
+.text-align p:nth-child(2){
+    text-align: center;
+}
+.text-align p:nth-child(3){
+    text-align: right;
+}
+.text-align p:nth-child(4){
+    text-align: justify;
+}
+
+
+.text-decoration p:nth-child(1){
+    text-decoration: overline;
+}
+.text-decoration p:nth-child(2){
+    text-decoration: line-through;
+}
+.text-decoration p:nth-child(3){
+    text-decoration:underline;
+}
+.text-decoration p:nth-child(4){
+    text-decoration: underline dotted;
+}
+.text-decoration p:nth-child(5){
+    text-decoration: wavy blue line-through;
+}
+.text-decoration{
+    text-decoration:none;
+}
+
+.text-transform p:nth-child(1){
+    text-transform:capitalize;
+}
+.text-transform p:nth-child(2){
+    text-transform:uppercase;
+}
+.text-transform p:nth-child(3){
+    text-transform:lowercase;
+}
+
+
+.text-indent p:nth-child(1){
+    text-indent: 100px;
+}
+
+
+.letter-spacing p{
+    letter-spacing: 10px;
+}
+
+.word-spacing p{
+    word-spacing: 20px;
+}
+
+.text-direction{
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 1px rgb(254, 10, 210);
+    /* x-axis y-axis bulriness color */
+}
+
+p .a{
+    vertical-align: bottom;
+}
+p .b{
+    vertical-align: baseline;
+}
+p .c{
+    vertical-align: middle;
+}
+p .d{
+    vertical-align: sub;
+}
+p .e{
+    vertical-align: super;
+}
+p .f{
+    vertical-align: text-bottom;
+}
+p .g{
+    vertical-align: top;
+}
+
+
+.whitespace{
+    word-wrap: normal;
+    word-wrap: break-word;
+}
+
+h1{
+    visibility: hidden;
+}
