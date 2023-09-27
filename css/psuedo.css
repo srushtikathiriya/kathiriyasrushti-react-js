@@ -25,10 +25,10 @@ section:nth-of-type(1) div:first-child h1:nth-child(2) {
 }
 
 
-/* div:nth-last-of-type(2) span:first-child p:first-child {
+div:nth-last-of-type(2) span:first-child p:first-child {
     background-color: yellow;
     color: red;
-} */
+}
 
 li:only-of-type section:nth-child(1) h1:only-child {
     background-color:yellow;
