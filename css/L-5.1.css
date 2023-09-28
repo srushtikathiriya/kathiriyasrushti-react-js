@@ -1,0 +1,64 @@
+.container{
+    max-width: 1200px;
+    background-color: gray;
+    margin: auto;
+}
+.box{
+    height: 90vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-flow: row; */
+    /* flex-flow: row-reverse; */
+    /* flex-flow: column; */
+    /* flex-flow: column-reverse; */
+    /* flex-flow: nowrap; */
+    /* flex-flow: wrap; */
+    /* flex-flow: wrap-reverse; */
+    /* flex-flow: row wrap; */
+    /* flex-flow: column wrap; */
+    /* flex-flow: row-reverse wrap-reverse; */
+}
+.demo-box1{
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+    /* align-self: flex-start; */
+}
+.demo-box2{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    /* align-self: center; */
+}
+.demo-box3{
+    height: 100px;
+    width: 100px;
+    background-color:skyblue;
+    /* align-self: flex-end; */
+}
+.demo-box4{
+    height: 100px;
+    width: 100px;
+    background-color:sandybrown;
+}
+.demo-box5{
+    height: 100px;
+    width: 100px;
+    background-color:bisque;
+}
