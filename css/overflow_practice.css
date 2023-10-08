@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inclusive+Sans:ital@0;1&family=Kanit:wght@700&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300&family=Young+Serif&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 450px;
+    width: 90%;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+    padding: 70px;
+}
+
+.box{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    background-image: url(asset\ 41.png);
+    background-color: darkslategray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div:first-child h4:first-child {
+    color: white;
+    font-size: 20px;
+}
+
+div:first-child h2:nth-child(2) {
+    color: orange;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+}
+
+.main {
+    position: absolute;
+    height: 55%;
+    bottom: 0;
+    right: 0;
+}
+
+.tag {
+    z-index: 2;
+    width: 30%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.float1 .p1,
+.float1 .p2 {
+    z-index: 3;
+    position: absolute;
+    bottom: 50px;
+    right: 48px;
+    font-weight: 800;
+}
+
+.float1 .p2 {
+    bottom: 30px;
+}
+
+.box-2 {
+    height: 210px;
+    width: 390px;
+    background-color: red;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.float2 {
+    position: absolute;
+    float: left;
+    height: 281px;
+    top: 0;
+    margin: auto;
+}
+div:first-child h3:nth-child(2){
+    color: white;
+    float: right;
+    padding: 10px 50px 10px 10px;
+}
+div:first-child h1:nth-child(3){
+    color: white;
+    position: absolute;
+    float: right;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    margin: 40px 10px 10px 190px;
+}
+div:first-child h4:nth-child(4){
+    color: yellow;
+    position: absolute;
+    font-weight: 900;
+    float: right;
+    font-size: 30px;
+    padding: 70px 10px 10px 190px;
+}
+.input1{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    float: right;
+    font-size: 15px;
+    margin: 75px 73px;
+    color: black;
+    border-radius: 5px;
+    border: 100px;
+}
+
+.box-3 {
+    height:200px;
+    width: 390px;
+    background-color: gray;
+    margin-left: 30px;
+    border-radius: 10px;  
+}
+.float3{
+    height: 210px;
+    position: absolute;
+    float: right;
+    top: 10;
+    border-radius: 10px;  
+}
+span h4{ 
+    position: absolute;
+    float: right;
+    margin: 40px 10px 10px 200px;
+    color: white;
+}
+span h1{
+    position: absolute;
+    float: right;
+    margin: 70px 10px 10px 200px;
+    color: orange;
+}
+.input2{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    margin: 120px 10px 10px 200px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border-radius: 5px;
+    border: 100px;
+}
+.box-4{
+    height:200px;
+    width: 800px;
+    background-color: green; 
+    margin-left: 30px; 
+    margin-top: 30px;
+    position: absolute;
+    background-image: url(asset\ 43.png);
+    top: 290px;
+    right: 60px;
+    border-radius:10px;
+}
+
+.float4{
+    position: absolute;
+    /* float: left; */
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: -70px;
+    margin: auto;
+}
+.h3{
+    position: absolute;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 40px 10px 10px 350px;
+}
+.div{
+    position:absolute;
+    color: aliceblue;
+    font-weight: 1000;
+    font-size: 60px;
+    margin: 90px 10px 10px 350px;
+}
+.input3{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    margin: 110px 10px 10px 650px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border-radius: 5px;
+    border: 100px;
+}
+
+
