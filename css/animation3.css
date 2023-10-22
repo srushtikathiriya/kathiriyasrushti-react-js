@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid double;
+    border-radius: 10%;
+    background-color:white;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes  move{
+    0% {
+        border-color: skyblue;
+        box-shadow: -30px 20px 20px skyblue;
+    }
+    10% {
+        border-color: pink;
+        box-shadow: 30px -20px 20px pink; 
+    }
+    20% {
+        border-color: gray; 
+        box-shadow: -30px 20px 20px gray; 
+    }
+    30% {
+        border-color: aqua;
+        box-shadow: 30px -20px 20px aqua; 
+    }
+    40% {
+        border-color: darkgoldenrod;
+        box-shadow: -30px 20px 20px darkgoldenrod; 
+    }
+    50% {
+        border-color:orangered;
+        box-shadow: 30px -20px 20px orangered; 
+    }
+    60% {
+        border-color: darkslategray; 
+        box-shadow: -30px 20px 20px darkslategray; 
+    }
+    70% {
+        border-color: lightcoral;
+        box-shadow: 30px -20px 20px lightcoral; 
+    }
+    80% {
+        border-color: darkblue;
+        box-shadow: -30px 20px 20px darkblue; 
+    }
+    90% {
+        border-color:cornflowerblue;
+        box-shadow: 30px -20px  20px cornflowerblue; 
+    }
+    100% {
+        border-color:darkkhaki;
+        box-shadow: -30px -20px 20px darkkhaki; 
+    }
+}
+.border-box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid transparent;
+    margin: auto;
+    margin-top: 150px;
+}
+.border-box:hover{
+    animation-name: lighting;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lighting {
+    0% {
+        border-color: red;
+        filter:drop-shadow(
+            10px 10px 10px red);
+    }
+    20% {
+        border-color: greenyellow;
+        filter:drop-shadow(
+            10px 10px 10px greenyellow); 
+            
+    }
+    40% {
+        border-color: blue; 
+        filter:drop-shadow(10px 10px 10px blue); 
+            
+    }
+    60% {
+        border-color: purple;
+        filter:drop-shadow(
+            10px 10px 10px purple); 
+            
+    }
+    80% {
+        border-color: darkkhaki;
+        filter:drop-shadow(
+            10px 10px 10px darkkhaki); 
+            
+    }
+    100% {
+        border-color:orangered;
+        filter:drop-shadow(
+            10px 10px 10px orangered); 
+            
+    }
+}

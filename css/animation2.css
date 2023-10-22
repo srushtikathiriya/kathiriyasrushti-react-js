@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.main-box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: cadetblue;
+    border-radius: 100%;
+    margin: 200px 100px 100px 500px;
+    transform: perspective(100px);
+    transform:rotateX(360deg);
+    transition: 2s;
+    filter:drop-shadow(10px 10px 20px pink);
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+@keyframes rotate{
+    0%{
+        transform: perspective(500px);
+        filter:drop-shadow(10px 10px 20px red) ;
+    }
+    40%{
+        transform: rotateX(100deg);
+        filter:drop-shadow(10px 10px 20px pink) ;
+    }
+    70%{
+        transform: scale(3);
+        filter:drop-shadow(10px 10px 20px blue) ;
+    }
+    100%{
+        transform: rotatey(360deg);
+        filter:drop-shadow(10px 10px 20px green) ;
+    }
+}
+
+

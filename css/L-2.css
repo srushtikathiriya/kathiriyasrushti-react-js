@@ -76,7 +76,11 @@
 } */
 
 /* 10 types of border in css */
-/* .main{
+/* order-width: 5px;
+    border-style: dotted;
+    border-color: blue;
+    border-top-style: solid;
+    bo .main{
     display: flex;
     padding: 10px;
     border:  1px solid blue;
@@ -153,18 +157,14 @@
 }
 
 .box-1{
-    border-width: 5px;
-    border-style: dotted;
-    border-color: blue;
-    border-top-style: solid;
     border-right-width: 10px;
     border-bottom-color: brown;
     border-top: none;
     border-left: none;
-}
+} */
 
 /* border radius */
-.radius{
+/*.radius{
     height: 300px;
     width: 300px;
     border: 2px solid blue;

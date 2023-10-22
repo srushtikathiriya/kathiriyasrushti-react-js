@@ -110,7 +110,7 @@ ul{
     box-shadow: 10px 20px 10px gray;
 }
 .shadow{
-    image:url("https://www.imageshine.in/uploads/gallery/Mamata-Banerjee-Full-photo-png-free-Download.png");
+    background-image:url("https://www.imageshine.in/uploads/gallery/Mamata-Banerjee-Full-photo-png-free-Download.png");
     margin: 100px;
     filter: drop-shadow(10px 20px 10px gray);
 }

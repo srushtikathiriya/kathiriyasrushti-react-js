@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* .divs{
+    height: 1000px;
+} */
+.maindiv{
+    position: relative;
+    height: 1000px;
+    width: 1920px;
+    background-color: black;
+}
+.overlay{
+    height: 1000px;
+    width: 1920px;
+    position: absolute;
+    inset: 0;
+    opacity: 0.1;
+    z-index: 1;
+}
+.main{
+    height:1000px;
+    width: 100%;
+    object-fit: cover;
+    background-image: url(pixels1.jpeg),url(pexels2.jpeg);
+    /* background-blend-mode: color; */
+    /* background-blend-mode: color-burn; */
+    /* background-blend-mode: color-dodge; */
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: difference; */
+    /* background-blend-mode: exclusion; */
+    /* background-blend-mode: hard-light; */
+    /* background-blend-mode: hue; */
+    /* background-blend-mode: lighten; */
+    /* background-blend-mode: luminosity; */
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: overlay; */
+    /* background-blend-mode: saturation; */
+    background-blend-mode: soft-light;
+}
