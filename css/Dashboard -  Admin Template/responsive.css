@@ -1,0 +1,24 @@
+@media(max-width:1400px){
+
+}
+
+@media(max-width:1200px){
+    .sidebar-menu{
+        display:block;
+    }
+    
+}
+@media(max-width:1020px){
+
+}
+@media(max-width:576px){
+
+}
+@media(max-width:320px){
+    .sidebar-menu{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
