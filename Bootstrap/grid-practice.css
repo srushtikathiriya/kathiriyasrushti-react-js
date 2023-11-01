@@ -31,56 +31,76 @@
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
 }
+.col{
+    height: 100px;
+    border: 1px solid black;
+    background-color: var(--bs-warning);
+}
 .col-1{
     height: 100px;
     border: 1px solid black;
-    background-color: var(--bs-white);
-}
-.col-9{
-    height: 80px;
-    border: 1px solid black;
-    background-color: var(--bs-white);
-}
-.col-3{
-    height: 80px;
-    border: 1px solid black;
-    background-color: var(--bs-white);
+    background-color: var(--bs-blue);
 }
 .col-2{
-    height: 80px;
+    height: 100px;
     border: 1px solid black;
-    background-color: var(--bs-white);
+    background-color: var(--bs-red);
 }
-.col-10{
-    height: 80px;
+.col-3{
+    height: 100px;
     border: 1px solid black;
-    background-color: var(--bs-white);
-}
-.col-8{
-    height: 80px;
-    border: 1px solid black;
-    background-color: var(--bs-white);
+    background-color: var(--bs-gray);
 }
 .col-4{
-    height: 80px;
+    height: 100px;
     border: 1px solid black;
-    background-color: var(--bs-white);
+    background-color: var(--bs-gray-700);
 }
-.col-12{
-    height: 80px;
+.col-5{
+    height: 100px;
     border: 1px solid black;
-    background-color: var(--bs-white);
+    background-color: var(--bs-green);
 }
 .col-6{
-    height: 80px;
+    height: 100px;
     border: 1px solid black;
-    background-color: var(--bs-white);
+    background-color: var(--bs-orange);
+}
+.col-7{
+    height: 100px;
+    border: 1px solid black;
+    background-color: var(--bs-pink);
+}
+.col-8{
+    height: 100px;
+    border: 1px solid black;
+    background-color: var(--bs-primary);
+}
+.col-9{
+    height: 100px;
+    border: 1px solid black;
+    background-color: var(--bs-purple);
+}
+.col-10{
+    height: 100px;
+    border: 1px solid black;
+    background-color: var(--bs-warning);
+}
+.col-11{
+    height: 100px;
+    border: 1px solid black;
+    background-color: var(--bs-success);
+}
+.col-12{
+    height: 100px;
+    border: 1px solid black;
+    background-color: var(--bs-cyan);
 }
 .row{
-    background-color:var( --bs-gray-500);
-    margin-top: 30px;
-    margin-bottom: 30px;
+    background-color:var( --bs-info);
+    border: 1px solid black;
+
 }
-.row{
-    height: 700px;
-}
+/* .row{
+    height: 500px;
+} */

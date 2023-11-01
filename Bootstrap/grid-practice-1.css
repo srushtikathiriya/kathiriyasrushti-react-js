@@ -31,33 +31,40 @@
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
 }
-.col-12{
+.col{
     border:2px solid  rgb(60, 171, 240);
     background-color: var(--bs-info);
     height: 80px;
     color: var(--bs-blue);
     padding: 10px;
+    margin: 0 30px;
     border-radius: 8px;
+    text-align: center;
 }
-.col-6{
+.col ,.r-2 ,.r-3{
     height: 80px;
     padding: 10px;
+    margin: 0 30px;
     border:2px solid  rgb(162, 65, 253);
     background-color: var(--bs-purple);
     border-radius: 8px;
     color: var(--bs-indigo);
+    text-align: center;
 }
-.col-3{
+.col ,.r-4,.r-5,.r-6,.r-7{
     height: 100px;
     padding: 10px;
+    margin: 0 30px;
     border:2px solid  rgb(244, 55, 52);
     background-color: var(--bs-danger);
     border-radius: 8px;
     color: var(--bs-red );
+    text-align: center;
 }
 .row{
     border:1px solid  rgb(249, 249, 249);
     background-color: var(--bs-white);
+    margin: 0 30px;
 }
 .row{
     height: 100px;
