@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    </style>
+</head>
+<body style="font-family: 'Roboto', sans-serif;">
+    <div class="row mb-4">
+        <div class="col-lg-8 mx-auto text-center">
+            <h1 style="color: gray;text-align: center;">Bootstrap Payment Forms</h1>
+        </div>
+    </div>
+    <div class="container border" style="width: 500px;">
+      
+        <form>
+        
+                <div class="row input-group mb-4 mt-4 d-flex justify-content-between">
+                    <div class="col-4">
+                        <button type="button" class="btn btn-primary p-1"> 
+                                <i class="fa-solid fa-credit-card"></i>
+                            <span>Credit card</span>
+                        </button>
+                    </div>
+                    <div class="col-auto justify-content-between">
+                            <div class="input-group">
+                                    <button type="button" class="btn btn-light  p-2">  
+                                        <i class="fa-brands fa-paypal" style="color: #7a7c7f;"></i>
+                                        <span style="color: rgb(108, 105, 105);">paypal</span>
+                                    </button>
+                                    <button type="button" class="btn btn-light  p-1">  
+                                        <i class="fa-solid fa-mobile-screen-button" style="color: #5c5c5c;"></i>
+                                        <span style="color: rgb(121, 120, 120);">Net Banking</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="mb-3">
+                    <label for="exampleFormControl" class="form-label">Card Owner</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Card Owner Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControl" class="form-label">Card Number</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control input-group" id="exampleFormControlInput1" placeholder="Valid Card Number">
+                        <span class="input-group-text">
+                            <i class="fa-brands fa-cc-visa fa-xl" style="color: #9fa0a3;"></i>
+                            <i class="fa-brands fa-cc-mastercard fa-xl ms-2" style="color: #a7aaae;"></i>
+                            <i class="fa-brands fa-cc-amex fa-xl ms-2" style="color: #b2b4b8;"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="mb-3 col-8">
+                        <label for="exampleFormControl" class="form-label">Expiration Date</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="DD" required>
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="MM" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 col-3">
+                        <label for="exampleFormControl" class="form-label">CVV
+                            <i class="fa-solid fa-circle-question" style="color: #111212;"></i>
+                        </label>
+                        <div class="input-group">
+                            <input type="" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4 d-flex ">
+                    <!-- <input type="text" class="form-control bg-primary text-white" id="exampleFormControlInput1" placeholder="Confirm Payment"> -->
+                    <!-- <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingPassword" placeholder="Confirm Payment">
+                        <label for="floatingPassword">Confirm Payment</label>
+                      </div> -->
+                      <div class="col-12 pt-3">
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn" type="submit">Confirm Payment</button>
+                        </div>
+                    </div>
+                </div>
+           
+        </form>
+    </div>
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
