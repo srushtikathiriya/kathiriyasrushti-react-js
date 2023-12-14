@@ -89,10 +89,14 @@ li{
     }
 }
 
-.animation{
-    font-size: 100px;
-    color: rgb(64, 62, 62);
+.feature-box-icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%; 
+    background-color:#f5df4e;
+    margin-left: 130px;
 }
+
 .text{
     font-weight: 600;
 }
