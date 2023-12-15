@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
   <div class="container mt-5 text-center">
 		<strong class="fs-5">Bootstrap 5.3 Alerts Additional Content</strong>
 		<br/>
@@ -28,13 +29,37 @@
 		</div>
   </div>
 	
-</body>
+  <div class="container w-50">
+	  <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+	  <div id="liveAlertPlaceholder"></div>
+  </div>
 
-</html>
 
 
-  
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script>
+	const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('Hey,I am Srushti kathiriya!! I am IT student', 'success')
+  })
+}
+</script>
+
 </body>
 
 </html>
