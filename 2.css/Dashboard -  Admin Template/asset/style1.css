@@ -345,6 +345,9 @@ body{
     font-size: 13px;
 }
 /* search bar */
+.menu-bar{
+    display: none;
+}
 .search-bar{
     display:inline-block;
     position: fixed;
@@ -596,7 +599,7 @@ body{
 }
 .renge span{
     position: absolute;
-    top: 65px;
+    top: 35px;
     right: 320px;
     font-size: 13px;
     /* font-weight: bold; */
@@ -609,7 +612,7 @@ body{
     /* top: 70px;
     left: 20px; */
     /* padding-top:20px ; */
-    top: 90px;
+    top: 70px;
     left: 505px;
     /* padding-right: 90px; */
     font-size: 25px;
@@ -636,7 +639,7 @@ body{
 } */
 .order-1{
     position: absolute;
-    top: 155px;
+    top: 125px;
     right: 465px;
     font-weight: 600;
     font-size: 15px;
@@ -644,7 +647,7 @@ body{
 }
 .visits{
     position: absolute;
-    top: 155px;
+    top: 125px;
     right: 360px;
     font-size: 15px;
     font-weight: 600;
@@ -653,7 +656,7 @@ body{
 
 .rent1 span{
     position: absolute;
-    top: 190px;
+    top: 170px;
     font-size: 18px;
     font-weight: 500;
     /* margin-top: 20px; */
@@ -661,7 +664,7 @@ body{
 }
 .rent2 span{
     position: absolute;
-    top: 220px;
+    top: 200px;
     font-size: 15px;
     font-weight: 600;
     /* margin-top: 5px; */
@@ -672,7 +675,7 @@ body{
     margin-top:-55px;
     margin-right: 15px; */
     position: absolute;
-    top: 190px;
+    top: 170px;
     right:330px;
     font-size: 20px;
     font-weight: 500;
@@ -684,7 +687,7 @@ body{
     margin-top:-20px;
     margin-right: 15px; */
     position: absolute;
-    top: 220px;
+    top: 200px;
     right: 330px;
     font-weight: 600;
     font-size: 15px;
@@ -693,7 +696,7 @@ body{
 .progress-1{
     height: 8px;
     position: absolute; 
-    bottom: 70px;
+    bottom: 40px;
     background-color: #c8d0d6;
     border-left:150px solid rgb(9, 222, 241);
     border-right:70px solid #8768e2;

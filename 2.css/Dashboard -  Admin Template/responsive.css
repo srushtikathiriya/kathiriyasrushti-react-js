@@ -3,24 +3,17 @@
 }
 
 @media(max-width:1200px){
-    /* .sidebar-menu{
-        display:block;
-    } */
+  
     
 }
 @media(max-width:1020px){
-    .sidebar-menu{
-        display: none;
-    }
+   .menu-bar{
+    display: block;
+   }
 }
 @media(max-width:576px){
 
 }
 @media(max-width:320px){
-    .sidebar-menu{
-        display: none;
-    }
-    .bars{
-        display: block;
-    }
+  
 }
