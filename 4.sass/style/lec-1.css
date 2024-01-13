@@ -1,0 +1,13 @@
+/* Sass Nesting */
+/* @at-root */
+/* Sass @mixin */
+/* Sass @extend Method */
+.box-2, .box-1 {
+  height: 350px;
+  width: 250px;
+  background-color: rgb(240, 44, 133);
+}
+
+.box-3, .box-2 {
+  border: 5px solid blue;
+}/*# sourceMappingURL=lec-1.css.map */
