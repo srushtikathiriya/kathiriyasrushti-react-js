@@ -23,7 +23,7 @@ nav{
                     text-decoration: none;
                     @at-root
                     .ticket-img{
-                        color: $c-2;
+                    color: $c-2;
                     padding: $p-1;
 
                     }
@@ -100,20 +100,54 @@ nav ul li a{
     background-color: $bg-4;
     height: $h-3;
     width: $w-1;
-    // position:relative;
-    // top: 0;
-    // bottom: 0;
-    // left: 0;
-    // right: 0;
 }
 
 .images-1{
-    display:flex;
+    display:$flex;
     justify-content: $j-evenly;
 }
-.img{
-   margin: $m-4; 
+.img1{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+ .img-2{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+ .img-3{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+ .img-4{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+.img-5{
+   display:$flex ; 
+   justify-content: $j-center;
+   margin: $m-1;
+   padding: 10px;
 }
+.img-6{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
+ .img-7{
+    display:$flex ; 
+    justify-content: $j-center;
+    margin: $m-1;
+    padding: 20px;
+ }
 .button{
     display: flex;
     justify-content: $j-center;

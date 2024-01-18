@@ -109,8 +109,53 @@ nav ul li a {
   justify-content: space-evenly;
 }
 
-.img {
-  margin: 15px;
+.img1 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-3 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-4 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-5 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.img-6 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-7 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
 }
 
 .button {
