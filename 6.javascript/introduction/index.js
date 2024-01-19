@@ -8,7 +8,7 @@
     // console.log(Total)
 }
 
-/*******New Html Element Add In Though Javascript *********/
+// New Html Element Add In Though Javascript 
 
 {
     // var newelement = document.createElement("h1");
@@ -26,12 +26,12 @@
 
 // Template Literals
 
-{
+// {
     // var _nameone = 20 + 20 + '5';
     // var _nameone = 20 + 20 +'5'+20 -'5'+10*2;
     // // var _nametwo= '5';
-    console.log(_nameone);
-    console.log(typeof(_nameone));
+    // console.log(_nameone);
+    // console.log(typeof(_nameone));
 
 
 
@@ -49,4 +49,4 @@
 
     // var six = `${one} + ${two}`
     // console.log(six);
-}
+// }
