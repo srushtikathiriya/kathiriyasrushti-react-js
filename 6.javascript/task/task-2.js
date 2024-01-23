@@ -26,7 +26,7 @@
 
 // que-4
 {
-    // let marks = 34;
+    // let marks = prompt("enter the number");
 
     // if(marks>=95){
     //     console.log("A grade");
@@ -64,10 +64,10 @@
 // 
 }
 {
-    let a = 17
-    let b = 5
-    let c = 17 % 5
-    console.log(c);
+    // let a = 17
+    // let b = 5
+    // let c = 17 % 5
+    // console.log(c);
 }
 {
     // let a = 5
