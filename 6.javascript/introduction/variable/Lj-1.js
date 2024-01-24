@@ -39,25 +39,25 @@
 
 // String with quotes
 
-// {
-//     let string1 = "he'llo"
-//     console.log(string1);
+{
+    // let string1 = "he'llo"
+    // console.log(string1);
 
-//     let string2 = 'he"llo'
-//     console.log(string2);
+    // let string2 = 'he"llo'
+    // console.log(string2);
 
-//     let string3 = "he\'llo"
-//     console.log(string3);
+    // let string3 = "he\'llo"
+    // console.log(string3);
 
-//     let string4 = 'he\"llo'
-//     console.log(string4);
+    // let string4 = 'he\"llo'
+    // console.log(string4);
 
-//     let string5 = "he\nllo"
-//     console.log(string5);
+    // let string5 = "he\nllo"
+    // console.log(string5);
 
-//     let string6 = "he\tllo"
-//     console.log(string6);
-// }
+    // let string6 = "he\tllo"
+    // console.log(string6);
+}
 
 
 

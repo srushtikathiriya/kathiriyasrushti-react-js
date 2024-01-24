@@ -24,6 +24,9 @@
 //      }
 // }
 
+// que-3
+
+
 // que-4
 {
     // let marks = prompt("enter the number");
