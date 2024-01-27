@@ -73,6 +73,24 @@
 
 }
 
+// que-4
+{
+    const number = 3;
+    let x = 0 , num = prompt("Guess the number game \n we give you a 10 chance : ");  
+    while(x<9)
+    {
+        x++;
+        if(num == number )
+        {
+            document.write( "<hr>" +"Right number is you win : " + number);
+            break;
+        }
+            document.write(x + ". " +"your chosen number is : " + num + "<br>");
+            num = prompt("Guess the number game \n we give you a 10 chance : ");  
+    }
+
+}
+
 // que-5
 {
     // let a = 0;
@@ -146,31 +164,57 @@
 
 // que-8
 {
-    // let a = 5;
-    // let b = 1;
-    // let i = 1;
-    // while (i<=5) {
-    //     b = b * a;
-    //     i++;
+    // let a = 1;
+    // let b = 4;
+    // while (a<=10) {
+    //     result = a ** b;
+    //     a++;
+    //     document.write(result + "<br>" );
     // }
-    // document.write(b );
 
-    // let a = 5;
-    // let b = 1;
-    // for(let i = 1; i <= 5; i++){
-    //     b = b * a;
+    // let a = 1;
+    // let b = 4;
+    // for(a = 1; a <= 10; a++){
+    //     result = a ** b;
+    //     document.write(result + "<br>" );
     // }
-    // document.write(b );
 
 
-    // let a = 5;
-    // let b = 1;
-    // let i = 1;
+    // let a = 1;
+    // let b = 4;
     // do{
-    //     b = b * a;
+    //     result = a ** b;
+    //     a++;
+    //     document.write(result + "<br>");
+    // }while (a<=10)
+}
+
+// que-9
+{
+
+    // let i=1;
+    // let  j;
+
+    // while(i<=5)
+    // {
+    //     j=1;
+    //     while(j<=i)
+    //     {
+    //         document.write("*");
+    //         j++;
+    //     }
     //     i++;
-    // }while (i<=5)
-    // document.write(b);
+    //     document.write("<br>");
+    // }
+
+    // for(let i=1;i<=5;i++)
+    // {
+    //     for(let j=1;j<=i;j++)
+    // {
+    //     document.write("*");
+    // }
+    //     document.write("<br>");
+    // }
 }
 
 
