@@ -75,19 +75,19 @@
 
 // que-4
 {
-    const number = 3;
-    let x = 0 , num = prompt("Guess the number game \n we give you a 10 chance : ");  
-    while(x<9)
-    {
-        x++;
-        if(num == number )
-        {
-            document.write( "<hr>" +"Right number is you win : " + number);
-            break;
-        }
-            document.write(x + ". " +"your chosen number is : " + num + "<br>");
-            num = prompt("Guess the number game \n we give you a 10 chance : ");  
-    }
+    // const number = 3;
+    // let x = 0 , num = prompt("Guess the number game \n we give you a 10 chance : ");  
+    // while(x<9)
+    // {
+    //     x++;
+    //     if(num == number )
+    //     {
+    //         document.write( "<hr>" +"Right number is you win : " + number);
+    //         break;
+    //     }
+    //         document.write(x + ". " +"your chosen number is : " + num + "<br>");
+    //         num = prompt("Guess the number game \n we give you a 10 chance : ");  
+    // }
 
 }
 
@@ -216,6 +216,44 @@
     //     document.write("<br>");
     // }
 }
+
+
+// break statement
+
+// que-10
+{
+    // let x = 0 , num = prompt("enter Search number between 1 to 20 : "); 
+
+    // while(x<=20){
+    //     x++;
+    //     if(x == num)
+    //     {
+            
+    //         document.write("your number is :" + x + "<br>");
+    //         break;
+    //     }
+    //     document.write(" your number is Search...." + x +"<br>");
+    // }
+}
+
+// que-11
+
+{
+    let i = prompt("Enter a starting number value : " ) , num = prompt("enter a ending number value : " );  
+
+    while(i<=num)
+    {
+        i++;
+        if(1 == i%2)
+        {
+            document.write(" the first odd number is " + i );
+            break ;
+        }
+        // document.write(i);
+    }
+
+}
+
 
 
 // continue statement
