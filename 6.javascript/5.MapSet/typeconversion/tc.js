@@ -2,7 +2,7 @@
 
 // let x;
 // console.log(x);  //"undefined"
-// console.log(typeof(x));
+// console.log(typeof(x));  //undefined
 
 
 // const x;   // SyntaxError: Missing initializer in const declaration 

@@ -89,51 +89,76 @@
     //         num = prompt("Guess the number game \n we give you a 10 chance : ");  
     // }
 
+
+    
+        //   let randomNumber = 20;
+        //   let guessCount = 0;
+        //   let guess = 10;
+        
+        //   while (guessCount < guess) {
+        //     let userGuess = prompt("Enter a number between 1 and 100");
+        //     guessCount++;
+        
+        //     if (userGuess == randomNumber) {
+        //       alert(
+        //         "Congratulations! You guessed the number in " + guessCount + " tries."
+        //       );
+        //       break;
+        //     }
+        
+        //     if (userGuess > randomNumber) {
+        //       alert("Your guess is too high. Try again.");
+        //     } else if (userGuess < randomNumber) {
+        //       alert("Your guess is too low. Try again.");
+        //     }
+        
+        //     if (guessCount == guess) {
+        //       alert(
+        //         "Sorry, you have exceeded the guess limit. The number was " +
+        //           randomNumber +
+        //           "."
+        //       );
+        //     }
+        //   }
+        
+
 }
 
 // que-5
 {
-    // let a = 0;
-    // let b = 1;
+    // let a = 1;
+    // let b = 0;
     // let c;
-    // let i = 2; 
-    // let x=10;
-    // document.write(a + "<br>");
-    // document.write(b + "<br>");
+    // let i=1; 
     // while (i <= 10) {
     //     c = a + b;
     //     a = b;
     //     b = c;
-    //     ++i;
-    //     document.write(c + "<br>");
+    //     i++;
+    //     document.write(a + "<br>");
     // }
 
-    // let a = 0;
-    // let b = 1;
+    // let a = 1;
+    // let b = 0;
     // let c;
-    // document.write(a + "<br>");
-    // document.write(b + "<br>");
-    // for(let i = 2; i <= 10; ++i){
+    // for(let i = 1; i <= 10; i++){
     //     c = a + b;
     //     a = b;
     //     b = c;
-    //     document.write(c + "<br>");
+    //     document.write(a + "<br>");
     // }
 
-    // let a = 0;
-    // let b = 1;
+    // let a = 1;
+    // let b = 0;
     // let c;
-    // let i = 2; 
-    // let x=10;
-    // document.write(a + "<br>");
-    // document.write(b + "<br>");
+    // let i = 1; 
     //  do{
     //     c = a + b;
     //     a = b;
     //     b = c;
-    //     ++i;
-    //     document.write(c + "<br>");
-    // }while (i <= x)
+    //     i++;
+    //     document.write(a + "<br>");
+    // }while (i <= 10)
 }
 
 // que-6
@@ -160,6 +185,11 @@
     //     i++;
     //     document.write(a + "<br>");
     // } while (i <= 10)
+}
+
+// que-7
+{
+
 }
 
 // que-8
@@ -239,19 +269,60 @@
 // que-11
 
 {
-    let i = prompt("Enter a starting number value : " ) , num = prompt("enter a ending number value : " );  
+    // let i = prompt("Enter a starting number value : " ) , num = prompt("enter a ending number value : " );  
 
-    while(i<=num)
-    {
-        i++;
-        if(1 == i%2)
-        {
-            document.write(" the first odd number is " + i );
-            break ;
-        }
-        // document.write(i);
-    }
+    // while(i<=num)
+    // {
+    //     i++;
+    //     if(1 == i%2)
+    //     {
+    //         document.write(" the first odd number is " + i );
+    //         break ;
+    //     }
+    //     // document.write(i);
+    // }
 
+}
+
+// que-12
+{
+    // const number = parseInt(prompt("Enter a positive number: "));
+    // let isPrime = true;
+
+    // for (let i = 2; i < number; i++) {
+    //     if (number % i == 0) {
+    //         isPrime = false;
+    //         break;
+    //     }
+    // }
+
+    // if (isPrime) {
+    //     document.write(`${number} is a prime number`);
+    // } else {
+    //     document.write(`${number} is a not prime number`);
+    // }
+
+}
+
+
+// que-13
+{
+    // let i  , num = prompt("Enter only single digit number : ");
+
+    // let sum =num*10;
+
+    // for(i=0;i<sum;i++)
+    // {
+    //     if(num < 10)
+    //     {
+    //         num = prompt("enter only single digit number number " );
+    //         document.write("loop is continue " + num + "<br>");
+    //     }else
+    //     {
+    //         document.write( "<br>" + "loop is break you enter double digit number " + num);
+    //         break;
+    //     }
+    // }
 }
 
 
