@@ -307,7 +307,8 @@
 
 // que-13
 {
-    // let i  , num = prompt("Enter only single digit number : ");
+    // let i  ;
+    // let num = prompt("Enter only single digit number : ");
 
     // let sum =num*10;
 
