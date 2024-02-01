@@ -172,7 +172,6 @@
     // }
 
     // let a = 1;
-    // let b = 10;
     // for(let i = 1; i <= 10; i++){
     //     a *= i;
     //     document.write(a + "<br>");
@@ -254,7 +253,7 @@
 {
     // let x = 0 , num = prompt("enter Search number between 1 to 20 : "); 
 
-    // while(x<=20){
+    // while(x<20){
     //     x++;
     //     if(x == num)
     //     {
