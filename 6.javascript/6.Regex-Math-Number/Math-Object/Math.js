@@ -4,12 +4,16 @@
 // console.log(math1);
 
 
+/***********************************************/
+
 
 // Math.PI
 
 // let math1 = Math.PI      //3.141592653589793
 // console.log(math1);
 
+
+/***********************************************/
 
 
 // Math.rounded
@@ -24,6 +28,8 @@
 // console.log(math4);
 
 
+/***********************************************/
+
 
 // Math.cail
 
@@ -34,7 +40,9 @@
 // let math3 = Math.ceil(0.5)      //1
 // console.log(math3);
 
-		
+
+/***********************************************/
+
 
 //Math.floor():-
 
@@ -51,6 +59,7 @@
 // console.log(math4);
 
 	
+/***********************************************/
 	
 
 //Math.trunc():-
@@ -62,6 +71,7 @@
 // console.log(math2);
 
 
+/***********************************************/
 		
 
 //Math.sign():-
@@ -76,6 +86,9 @@
 // console.log(math3);
 
 
+/***********************************************/
+
+
 //Math.pow():-
 
 // let math1  = Math.pow(5 , -5)    //0.00031999999999999997
@@ -85,6 +98,8 @@
 // let math2  = Math.pow(5 , 5)      //3125
 // console.log(math2);
 
+
+/***********************************************/
 
 		
 //Math.sqrt():-
@@ -101,7 +116,9 @@
 // let math4  = Math.sqrt(-25)      //NaN
 // console.log(math4);
 
-		
+
+/***********************************************/
+
 
 //Math.abs():-
 
@@ -115,6 +132,8 @@
 // console.log(math3);
 
 
+/***********************************************/
+
 
 //Math.min() and Math.max():-
 
@@ -124,9 +143,74 @@
 // let math2  = Math.max(-15  , -155 , 20  , 50  , 230)   //230
 // console.log(math2);
 
-		
+
+/***********************************************/
+
 
 //Math.random():-
 
 // const math1 = Math.random()*10000
 // console.log(math1);
+
+
+/***********************************************/
+
+
+//Math.sin():-
+
+// let math1 = Math.sin(0*3.14/180)
+// console.log(math1);
+// let math2 = Math.sin(30*3.14/180)
+// console.log(math2);
+// let math3 = Math.sin(45*3.14/180)
+// console.log(math3);
+// let math4 = Math.sin(60*3.14/180)
+// console.log(math4);
+// let math5 = Math.sin(90*3.14/180)
+// console.log(math5);
+
+
+/***********************************************/
+
+
+// Math.cos():-
+
+// let math1 = Math.cos(0*3.14/180)
+// console.log(math1);
+// let math2 = Math.cos(30*3.14/180)
+// console.log(math2);
+// let math3 = Math.cos(45*3.14/180)
+// console.log(math3);
+// let math4 = Math.cos(60*3.14/180)
+// console.log(math4);
+// let math5 = Math.cos(90*3.14/180)
+// console.log(math5);
+
+
+/***********************************************/
+
+
+// Math.log():-
+
+// let math1 = Math.log(10.60)
+// console.log(math1);
+
+
+/***********************************************/
+
+
+// Math.log2():-
+
+// let math1 = Math.log2(100.20)
+// console.log(math1);
+
+
+/***********************************************/
+
+
+// Math.log10():-
+
+// let math1 = Math.log(250.90)
+// console.log(math1);
+
+
