@@ -1,0 +1,64 @@
+.maindiv{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    position: relative;
+}
+.circle-1{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border-top: 10px solid red;
+    border-bottom: 10px solid green;
+    border-left: 10px solid red;
+    border-right: 10px solid green;
+    background-color: white;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.circle-2{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border-top: 10px solid red;
+    border-bottom: 10px solid pink;
+    border-left: 10px solid orange;
+    border-right: 10px solid green;
+    background-color: black;
+    animation-name: rotate-2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 140px;
+    right: 0;
+    top: 135px;
+    bottom: 0;
+}
+@keyframes rotate-2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}

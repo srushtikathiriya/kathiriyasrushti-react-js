@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(247, 190, 83);
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+img
+{
+    display: block ;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-1 .img
+{
+    border-radius: 20px ;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.card-1  .img::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0% ;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-image: linear-gradient(to bottom, #0066ff, #5059a1, #7a79ab, #9d9ab4, #bebebe);
+    transition: all 0.5s ease-in-out;
+}
+
+.card-1:hover .img::after
+{
+    opacity: 0.5;
+}
+
+.card-1:hover  img
+{
+    transform: scale(1.15);
+}
+.text{
+    position: absolute;
+    top: 10px;
+    /* left: 160px; */
+    z-index: 2;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.text span{
+    display: block;
+    color: orange;
+    font-size: 15px;
+}
+.text :nth-child(2){
+   color: white;
+   font-size: 20px;
+}
+.card-1:hover .animation  .text{
+    transition-duration: 0.5s;
+    transform: translateY(10px);
+    transition-timing-function: linear;
+}
+.icon-text span {
+    display: flex;
+    color: white;
+    padding-block-start: 10px;
+}
+.img-text{
+    position: relative;
+    padding-left: 20px;
+    bottom: 70px;
+    z-index: 10;
+    display:flex;
+}
+.img-text img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.Text span{
+    display: block;
+    color: white;
+    padding-inline-start: 10px;
+    padding-block-start: 5px;
+}
+.icon-text-2 span{
+    display: flex;
+    color: white;
+    padding-block-start: 20px;
+    padding-left: 20px;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    z-index: 2;
+}
+.card-1:hover .animation .text .icon-text-2{
+    transition-duration: 0.5s;
+    transform: translateY(10px);
+    transition-timing-function: linear;
+}

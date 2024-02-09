@@ -1,0 +1,93 @@
+.container{
+    height: 500px;
+    width: 1000px;
+    background-color: #051937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.box{
+    background-color: white;
+    width: 100px;
+    height: 100px ;
+    border-radius: 20px ;
+    position: relative;
+    overflow: hidden;
+}
+
+.box h1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    font-weight: 900;
+    font-size: 30px;
+    animation: countdown 8s linear  infinite forwards;
+}
+
+.box h1:nth-child(1){
+    z-index: 8;
+    animation: countdown 8s linear 1s infinite forwards;
+}
+
+.box h1:nth-child(2){
+    z-index: 7;
+    animation: countdown 8s linear 2s infinite forwards;
+}
+
+.box h1:nth-child(3){
+    z-index: 6;
+    animation: countdown 8s linear 3s infinite forwards;
+}
+
+.box h1:nth-child(4){
+    z-index: 5;
+    animation: countdown 8s linear 4s infinite forwards;
+}
+
+.box h1:nth-child(5){
+    z-index: 4;
+    animation: countdown 8s linear 5s infinite forwards;
+}
+
+.box h1:nth-child(6){
+    z-index: 3;
+    animation: countdown 8s linear 6s infinite forwards;
+}
+
+.box h1:nth-child(7){
+    z-index: 2;
+    animation: countdown 8s linear 7s infinite forwards;
+}
+
+.box h1:nth-child(8){
+    z-index: 1;
+    animation: countdown 8s linear 8s infinite forwards;
+}
+
+
+@keyframes countdown{
+    0%{
+        z-index: 3;
+    }
+    25%{
+        z-index:2
+    }
+    50%{
+        z-index: 1;
+    }
+    75%{
+        z-index: 1;
+    }
+    100%{
+        z-index: -1;
+    }
+    
+}

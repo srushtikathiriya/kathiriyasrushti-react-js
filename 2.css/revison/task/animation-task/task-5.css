@@ -1,0 +1,42 @@
+
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.box{
+    width: 300px ;
+    height: 300px;
+    background-color:blue;
+    animation: shape 3s linear infinite alternate;
+}
+
+@keyframes shape
+{
+    0%{
+        border-radius: 0%;
+    }
+    25%{
+        border-radius: 20%;
+        transform: scale(0.8);
+        background-color: yellow;
+    }
+    50%{
+        border-radius: 30%;
+        transform: scale(0.6);
+        background-color: orange;
+    }
+    75%{
+        border-radius: 35%;
+        transform: scale(0.4);
+        background-color: orangered;
+    }
+    100%{
+        border-radius: 50%;
+        transform: scale(0.2);
+        background-color: brown;
+    }
+}

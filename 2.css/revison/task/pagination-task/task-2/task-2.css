@@ -1,0 +1,47 @@
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 22px;
+}
+
+.pagination .page-1 ,.backward,.foreward{
+    font-size: 15px;
+    color: black;
+    float: left;
+    text-align: center;
+    padding: 8px 2px;
+    margin-right: 18px;
+    width: 38px;
+    border: 2px solid black;
+}
+.backward {
+    padding-inline-start: 10px;
+    padding-inline-end: 25px;
+}
+.backward:hover,.foreward:hover{
+    background-color: #0A5F87; 
+}
+.backward:hover a,.foreward:hover a{
+    color:white;
+}
+
+.backward a,.foreward a,.page-1 a{
+    text-decoration: none;
+}
+.pagination .active{
+    background-color: skyblue;
+}
+
+.page-1:hover{
+    background-color: #0A5F87;
+}
+.page-1:hover a{
+    color:white;
+}
