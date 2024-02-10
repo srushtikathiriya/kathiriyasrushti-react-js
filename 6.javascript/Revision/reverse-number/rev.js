@@ -1,6 +1,6 @@
 // reverse a number
 {
-    let n = 1234;
+    let n = 123456789;
     let rev = 0;
     while (n != 0) {
         rev = rev * 10 + n % 10;

@@ -34,7 +34,7 @@
 
 // q-4 find value its divisible by 5 and 3
 {
-    // let a = 2;
+    // let a = 1;
     // if (a % 5 == 3) {
     //     console.log("No. is Divisible by 5 and 3");
     // } 
@@ -230,12 +230,11 @@
 
 // q-15 assign value
 {
-    // let x = 10 , y = 20;
-
+    // let x = 1900, y = 450;
     // if(x < 2000 && x > 3000){
-    //     console.log("assign value is : " + x);
+    //     console.log("assign value is : "  +  x);
     // }
     // else if(y > 100 && y < 500){
-    //     console.log("assign value is : " + y);
+    //     console.log("assign value is : "  +  y);
     // }
 }

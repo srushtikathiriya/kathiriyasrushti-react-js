@@ -32,26 +32,22 @@ body{
     background-color: rgb(249, 226, 185);
     font-weight: bold;
   }
-  .pagination .page-1:nth-child(1){
+.pagination .page-1:nth-child(1){
     background-color: rgb(250, 109, 57);
     color: white;
-  }
-  .page-1 a{
+}
+.page-1 a{
     text-decoration: none;
     color: gray;
-  }
-  .page-1:nth-child(1) a{
+}
+.page-1:nth-child(1) a{
     color: gray;
-  }
+}
   
-  .pagination .page-1:nth-child(7){
-    margin-bottom: 10px;
-  }
-
- .forward:hover , .page-1:hover{
+.forward:hover , .page-1:hover{
     background-color: skyblue;
     color:white;
-  }
-  .page-1:hover a{
+}
+.page-1:hover a{
     color:white;
-  }
+}

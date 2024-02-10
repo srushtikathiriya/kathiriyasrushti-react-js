@@ -42,11 +42,11 @@
 
 // q-7 print even no. up to n
 {
-//     for(let n = 1; n <= 50; n++){
-//         if(n % 2 == 0){
-//             console.log(n);
-//         }
-//     }
+    //     for(let n = 1; n <= 50; n++){
+    //         if(n % 2 == 0){
+    //             console.log(n);
+    //         }
+    //     }
 }
 
 // q-8 print odd no. up to n
@@ -60,16 +60,27 @@
 
 // q-9 print A - Z
 {
-
+    // for(let i = 65; i <= 90; i++){
+    //   console.log(String.fromCharCode(i));
+    // } 
 }
 
 // q-10
 {
-
+    // for(let i = 65; i <= 90; i++){
+    //     console.log(`${String.fromCharCode(i)} - ${i}`);
+    // }
 }
 
 // q-11
 {
+    // console.log("Print (A-a TO Z-z) is are :");
+
+    // let a = 0;
+    // for(let i = 65; i <= 90; i++){
+    //     a++;
+    //     console.log(`${String.fromCharCode(i)} - ${String.fromCharCode(96+a)}`);
+    // }
 
 }
 
@@ -119,9 +130,9 @@
 
 // q-16 1,4,9,16,.....,n
 {
-//    for(let x = 1; x <= 10; x++){
-//     console.log(x*x);
-//     }
+    //    for(let x = 1; x <= 10; x++){
+    //     console.log(x*x);
+    //     }
 }
 
 // q-17 1,4,3,16,5,...,n
@@ -156,7 +167,11 @@
 
 //q-20 A, C , E, G , I.....
 {
-
+    // for (let i = 64; i <= 90; i++) {
+    //     if (i % 2 == 1) {
+    //         console.log(String.fromCharCode(i));
+    //     }
+    // }
 }
 
 // q-21 1,1,2,3,5,...,n
@@ -174,5 +189,25 @@
 
 // q-22 0.5,1,2.5,5,....n
 {
+    // let t = 1;
+    // for(let i = 0.5; i <= 10; i++)
+    // {
+    //     console.log(i++);
+    //     console.log(t++);
+    //     t+=3;
+    // }
+}
 
+// q-23  print A c E g I
+{
+    // let alfa = 65;
+    // for(let i = 0; i <= 10; i++){
+    //     if(i%2==0){
+    //         console.log(String.fromCharCode(alfa));
+    //     }
+    //     else{
+    //         console.log(String.fromCharCode(alfa+32));
+    //     }
+    //     alfa+=2;
+    // }
 }
