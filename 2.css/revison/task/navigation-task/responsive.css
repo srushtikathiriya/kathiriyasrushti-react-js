@@ -1,0 +1,30 @@
+@media(min-width:576px) {
+  .nav-item,
+  .contact {
+    display: none;
+  }
+}
+
+@media(min-width:768px) {
+  .nav-item {
+    display: none;
+  }
+  .contact,
+  .mobile-menu {
+    display: block;
+    margin: 10px;
+  }
+}
+
+@media(min-width:992px) {
+  .nav-item,
+  .contact {
+    display: block;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .nav-item ul li{
+    margin: 10px;
+  }
+}

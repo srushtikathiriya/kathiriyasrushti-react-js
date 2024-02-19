@@ -34,13 +34,13 @@
 
 // q-4 find value its divisible by 5 and 3
 {
-    // let a = 1;
-    // if (a % 5 == 3) {
-    //     console.log("No. is Divisible by 5 and 3");
-    // } 
-    // else {
-    //     console.log("No. is not Divisible by 5 and 3");
-    // }
+    let a = 1;
+    if (a % 5 == 3) {
+        console.log("No. is Divisible by 5 and 3");
+    } 
+    else {
+        console.log("No. is not Divisible by 5 and 3");
+    }
 }
 
 // q-5 students marks is pass or not

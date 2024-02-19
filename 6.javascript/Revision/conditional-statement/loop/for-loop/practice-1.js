@@ -27,11 +27,12 @@
 // }
 
 // q-5 print n to 1
-// {
-//     for(let n = 50; n >= 1; n--){
-//         console.log(n);
-//     }
-// }
+{
+    for(let n = 10; n >= 1; n--){
+        console.log(n);
+        console.log(typeof(n));
+    }
+}
 
 // q-6 print -n to n
 {
