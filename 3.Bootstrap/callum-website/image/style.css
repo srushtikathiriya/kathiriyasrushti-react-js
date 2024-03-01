@@ -100,3 +100,52 @@ li{
 .text{
     font-weight: 600;
 }
+
+
+
+/* section - 6 FAQ  */
+
+/* FAQ .FAQ-heading  */
+
+.FAQ .FAQ-wrapper .row .FAQ-heading
+{
+    margin-bottom: 5rem;
+}
+
+/* FAQ accordion */
+
+
+.FAQ .FAQ-wrapper .row .col-12 .FAQ-deta  .accordion-item
+{
+    border-radius: 0%;
+    background: none;
+    margin: 26px auto;
+}
+
+.FAQ .FAQ-wrapper .row .col-12 .FAQ-deta  .accordion-item .accordion-header .accordion-button
+{
+    position: relative;
+    padding-left: 40px;
+    box-shadow: none !important;
+    width: 100%; 
+    background:none;
+    color: #000;
+    border: none;
+    opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+}
+
+.FAQ .FAQ-wrapper .row .col-12 .FAQ-deta  .accordion-item .accordion-header .accordion-button:focus-within
+{
+    opacity: 1;
+}
+
+.FAQ .FAQ-wrapper .row .col-12 .FAQ-deta  .accordion-item .accordion-header .accordion-button::after
+{
+
+    position: absolute;
+    margin: auto;
+    top: 0%;
+    left: 1.5%;
+    bottom: 0%;
+}

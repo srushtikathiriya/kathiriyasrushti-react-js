@@ -50,8 +50,10 @@ nav ul li a{
 .bg-img-1{
     display: $flex;
     height: $h-2;
-    background-image: url(../../asset/page-title-bg.jpg);
-    
+    background:  linear-gradient(90deg, rgba(175,171,235,0.7) 42%, rgba(0,212,255,0.7) 100%)
+    , url(../../asset/page-title-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
     justify-content:$j-center;
     align-items:$i-center;
 }
