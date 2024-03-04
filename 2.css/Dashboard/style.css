@@ -190,7 +190,7 @@ aside .sidebar .message-count{
 
 /****************nav bar box****************/
 
-#main-container .nav-warpper
+#main-container .nav-bar
 {
     position: fixed;
     z-index: 10;
@@ -202,7 +202,7 @@ aside .sidebar .message-count{
     padding: 19px 0px 0px 0px ;
 }
 
-#main-container .nav-warpper nav
+#main-container .nav-bar nav
 {
     background-color: #fff;
     padding: 0px 20px;    
@@ -220,25 +220,25 @@ aside .sidebar .message-count{
 }
 
 
-#main-container .nav-warpper nav .moblie-menu
+#main-container .nav-bar nav .moblie-menu
 {
     display: none;
     width: 22px;
 }
 
-#main-container .nav-warpper nav .moblie-menu a
+#main-container .nav-bar nav .moblie-menu a
 {
     display: block;
     text-align: center;
 }
 
-#main-container .nav-warpper nav .moblie-menu a i
+#main-container .nav-bar nav .moblie-menu a i
 {
     font-size: 2.2rem;
 }
 
 
-#main-container .nav-warpper nav label 
+#main-container .nav-bar nav label 
 {
     margin: auto;
     margin-left: 10px;
@@ -247,7 +247,7 @@ aside .sidebar .message-count{
     display: flex;
 }
 
-#main-container .nav-warpper nav label p
+#main-container .nav-bar nav label p
 {
     font-weight: 800;
     margin: auto;
@@ -258,20 +258,20 @@ aside .sidebar .message-count{
     text-transform: capitalize;
 }
 
-#main-container .nav-warpper nav label .fa-magnifying-glass{
+#main-container .nav-bar nav label .fa-magnifying-glass{
     font-size: 1.8rem;
     color: #6f6b7d;
 } 
 
 
-#main-container .nav-warpper nav .nav-btn
+#main-container .nav-bar nav .nav-btn
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#main-container .nav-warpper nav .nav-btn li
+#main-container .nav-bar nav .nav-btn li
 {
     width: 43px;
     height: 43px;
@@ -280,12 +280,12 @@ aside .sidebar .message-count{
     position: relative;
 }
 
-#main-container .nav-warpper nav .nav-btn .btn-2
+#main-container .nav-bar nav .nav-btn .btn-2
 {
     padding: 7px;
 }
 
-#main-container .nav-warpper nav .nav-btn li a
+#main-container .nav-bar nav .nav-btn li a
 {
     margin: auto;
     display: block;
@@ -293,8 +293,8 @@ aside .sidebar .message-count{
     width: 100%;
 }
 
-#main-container .nav-warpper nav .nav-btn li img,
-#main-container .nav-warpper nav .nav-btn li a img
+#main-container .nav-bar nav .nav-btn li img,
+#main-container .nav-bar nav .nav-btn li a img
 {
     object-fit: contain;
     object-position: center;
@@ -302,18 +302,18 @@ aside .sidebar .message-count{
     height: 100%;
 }
 
-.nav-warpper nav .nav-btn li:nth-child(5) a img
+.nav-bar nav .nav-btn li:nth-child(5) a img
 {
     border-radius: 50%;
 }
 
 
-#main-container .nav-warpper nav .nav-btn .btn-4 a
+#main-container .nav-bar nav .nav-btn .count-down1 a
 {
     position: relative;
 }
 
-#main-container .nav-warpper nav .nav-btn .btn-4 a .pop-up
+#main-container .nav-bar nav .nav-btn .count-down1 a .online
 {
     position: absolute;
     right: -11%;
@@ -324,7 +324,7 @@ aside .sidebar .message-count{
     border-radius: 50%;
 }
 
-#main-container .nav-warpper nav .nav-btn .btn-4 a .pop-up p
+#main-container .nav-bar nav .nav-btn .count-down1 a .online p
 {
     border-radius: 50%;
     text-align: center;
@@ -333,12 +333,12 @@ aside .sidebar .message-count{
     color: #fff;
 }
 
-#main-container .nav-warpper nav .nav-btn .btn-5 a
+#main-container .nav-bar nav .nav-btn .btn-4 a
 {
     position: relative;
 }
 
-#main-container .nav-warpper nav .nav-btn .btn-5 a .pop-up
+#main-container .nav-bar nav .nav-btn .btn-4 a .online
 {
     outline: 2px solid white;
     position: absolute;
@@ -390,10 +390,6 @@ aside .sidebar .message-count{
     flex-flow: column wrap;
     align-items: center;
     justify-content:center;
-}
-
-#row-I .I-col-I .col-card-1 .card-wrapper::-webkit-scrollbar {
-    display: none;
 }
 
 #row-I .I-col-I .col-card-1 .card-wrapper .card{

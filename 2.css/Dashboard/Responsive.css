@@ -11,12 +11,11 @@
     .buttons{
         display: block;
     }
-  
 }
 
 /*****************************/
 
-@media (max-width:1020px)
+@media (max-width:992px)
 {
     .asid-wrapper
     {
@@ -30,19 +29,19 @@
     }   
 
 
-    #main-container .nav-warpper nav .moblie-menu
+    #main-container .nav-bar nav .moblie-menu
     {
         display: block;
         margin-right: 6px;
     }
 
-    #main-container .nav-warpper
+    #main-container .nav-bar
     {
         left: 0px;
         width: 100%;
     }
 
-    #main-container .nav-warpper nav label p
+    #main-container .nav-bar nav label p
     {
         display: none;
     }
@@ -94,19 +93,19 @@
     }   
   
 
-    #main-container .nav-warpper
+    #main-container .nav-bar
     {
         left: 0px;
         width: 100%;
     }
 
-    #main-container .nav-warpper nav .moblie-menu
+    #main-container .nav-bar nav .moblie-menu
     {
         display: block;
         margin-right: 6px;
     }
 
-    #main-container .nav-warpper nav label p
+    #main-container .nav-bar nav label p
     {
         display: none;
     }
@@ -114,7 +113,7 @@
     #main-container #row-I
     {
         margin: auto;
-        height: inherit;
+        height:inherit;
         width: calc(100% - 2%);
     }
 
@@ -143,18 +142,26 @@
     
     #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta{  
         width: 100%;
-        height: 40%;
+        height: 30%;
     }
 
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta .sub-text{  
+        width: 100%;
+        height: 30%;
+        position: relative;
+        top: -50%;
+    }
     #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta ul
     {
-        height: 50%;
+        height: 70%;
+        position: relative;
+        top: -50%;
     }
 
     #row-I .I-col-I .col-card-1 .card-wrapper .card .card-img{
-        top: 20%;
+        top: 17%;
         right: 0%;
-        height: 170px;
+        height: 150px;
         width: 100%;
     }
 
@@ -359,19 +366,19 @@
     }   
   
 
-    #main-container .nav-warpper
+    #main-container .nav-bar
     {
         left: 0px;
         width: 100%;
     }
 
-    #main-container .nav-warpper nav .moblie-menu
+    #main-container .nav-bar nav .moblie-menu
     {
         display: block;
         margin-right: 6px;
     }
 
-    #main-container .nav-warpper nav label p
+    #main-container .nav-bar nav label p
     {
         display: none;
     }
@@ -411,16 +418,24 @@
         height: 40%;
     }
 
-    
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta .sub-text{  
+        width: 100%;
+        height: 30%;
+        position: relative;
+        top: -10%;
+    }
+
     #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta ul
     {
-        height: 90%;
+        height: 80%;
+        position: relative;
+        top: -20%;
     }
 
     #row-I .I-col-I .col-card-1 .card-wrapper .card .card-img{
         top: 20%;
         right: 0%;
-        height: 170px;
+        height: 150px;
         width: 100%;
     }
 
@@ -604,24 +619,24 @@
     }   
   
 
-    #main-container .nav-warpper
+    #main-container .nav-bar
     {
         left: 0px;
         width: 100%;
     }
 
-    #main-container .nav-warpper nav .moblie-menu
+    #main-container .nav-bar nav .moblie-menu
     {
         display: block;
         margin-right: 6px;
     }
 
-    #main-container .nav-warpper nav label p
+    #main-container .nav-bar nav label p
     {
         display: none;
     }
 
-    #main-container .nav-warpper nav .nav-btn li
+    #main-container .nav-bar nav .nav-btn li
     {
         width: 38px;
         height: 38px;
@@ -665,7 +680,7 @@
     #row-I .I-col-I .col-card-1 .card-wrapper .card .card-img{
         top: 20%;
         right: 0%;
-        height: 170px;
+        height: 160px;
         width: 100%;
     }
     
@@ -800,7 +815,6 @@
         margin: 8px auto;
         width: 100%; 
     }
-
     
     #row-IV .IV-col-II
     {
