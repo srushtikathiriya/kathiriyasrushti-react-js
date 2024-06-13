@@ -34,13 +34,13 @@
 
 // q-4 find value its divisible by 5 and 3
 {
-    let a = 1;
-    if (a % 5 == 3) {
-        console.log("No. is Divisible by 5 and 3");
-    } 
-    else {
-        console.log("No. is not Divisible by 5 and 3");
-    }
+    // let a = 21;
+    // if (a % 5 === 0) {
+    //     console.log("No. is Divisible by 5 and 3");
+    // } 
+    // else if(a % 3 === 0){
+    //     console.log("No. is not Divisible by 5 and 3");
+    // }
 }
 
 // q-5 students marks is pass or not
@@ -231,10 +231,13 @@
 // q-15 assign value
 {
     // let x = 1900, y = 450;
+    // let assignvalue;
     // if(x < 2000 && x > 3000){
-    //     console.log("assign value is : "  +  x);
+    //     assignvalue = x;
+    //     console.log("assign value is : "  +  assignvalue);
     // }
     // else if(y > 100 && y < 500){
-    //     console.log("assign value is : "  +  y);
+    //     assignvalue = y;
+    //     console.log("assign value is : "  +  assignvalue);
     // }
 }

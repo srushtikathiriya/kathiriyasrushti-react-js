@@ -25,7 +25,16 @@
 // }
 
 // que-3
+let str = "noon";
+let newstr = str.split("").reverse().join("");
 
+// console.log(newstr);
+if(newstr===str){
+  console.log("number is palidrome");
+}
+else{
+  console.log("number is not palidrome");
+}
 
 // que-4
 {

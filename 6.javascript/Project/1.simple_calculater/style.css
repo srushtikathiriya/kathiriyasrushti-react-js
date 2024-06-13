@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+table {
+    border: 2px solid rgb(9, 9, 9);
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;   
+}
+
+input[type="button"] 
+{
+    width: 100%;
+    padding: 20px 40px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 80px;
+    border: 2px solid rgb(14, 24, 137);
+}
+
+input[type="text"] {
+
+    padding: 20px 30px;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: rgb(243, 240, 240);
+    border: none;
+    border-radius: 15px;
+    border: 2px solid rgb(9, 3, 3);
+}
